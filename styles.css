@@ -1,49 +1,49 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin-top: 0;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
+  margin-top: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
 }
 
 header {
-    height: 65px;
+  height: 65px;
 }
 
 .bg {
-    background-position: center;
-    background-image: url(/resources/paisajito.jpg);
-    background-size: cover;
-    height: 525px;
+  background-position: center;
+  background-image: url(/resources/paisajito.jpg);
+  background-size: cover;
+  height: 525px;
 }
 
 #sub-header {
-    height: 55px;
-    background-color: black;
-    color: whitesmoke;
-    font-size: 16px;
+  height: 55px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 16px;
 }
 
 #header-button:hover {
-    background-color: rgb(212, 212, 212);
+  background-color: rgb(212, 212, 212);
 }
 
 .stay-search {
-    width: 988px;
-    height: 55px;
+  width: 988px;
+  height: 55px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    margin-left: 15px;
-    width: 155px;
-    height: 30px;
+  margin-left: 15px;
+  width: 155px;
+  height: 30px;
 }
 
-.top-nav-bar a{
-    color: rgb(79 57 63);
+.top-nav-bar a {
+  color: rgb(79 57 63);
 }
