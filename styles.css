@@ -11,11 +11,27 @@ header {
     height: 65px;
 }
 
+.bg {
+    background-position: center;
+    background-image: url(/resources/paisajito.jpg);
+    background-size: cover;
+    height: 525px;
+}
+
 #sub-header {
     height: 55px;
     background-color: black;
     color: whitesmoke;
     font-size: 16px;
+}
+
+#header-button:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.stay-search {
+    width: 988px;
+    height: 55px;
 }
 
 a {
