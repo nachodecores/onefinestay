@@ -1,49 +1,92 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  margin-top: 0;
-  font-family: "Work Sans", sans-serif;
-  font-size: 14px;
+	margin-top: 0;
+	font-family: "Work Sans", sans-serif;
+	font-size: 14px;
 }
 
 header {
-  height: 65px;
+	height: 65px;
+}
+
+.header-division-bars {
+	border: solid 1px;
+	height: 20%;
+	color: rgb(205 205 209);
+}
+
+.mask {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 100%;
 }
 
 .bg {
-  background-position: center;
-  background-image: url(/resources/paisajito.jpg);
-  background-size: cover;
-  height: 525px;
+	background-position: center;
+	background-image: url(/resources/paisajito.jpg);
+	background-size: cover;
+	height: 525px;
 }
 
 #sub-header {
-  height: 55px;
-  background-color: black;
-  color: whitesmoke;
-  font-size: 16px;
+	height: 55px;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 16px;
 }
 
 #header-button:hover {
-  background-color: rgb(212, 212, 212);
+	background-color: rgb(212, 212, 212);
+}
+
+.primera-foto {
+	width: 1000px;
 }
 
 .stay-search {
-  width: 988px;
-  height: 55px;
+	width: 988px;
+	height: 55px;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-  margin-left: 15px;
-  width: 155px;
-  height: 30px;
+	margin-left: 15px;
+	width: 155px;
+	height: 30px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 26px;
+	font-family: "Vollkorn", serif;
 }
 
 .top-nav-bar a {
-  color: rgb(79 57 63);
+	color: rgb(79 57 63);
+}
+
+#where-to-next-input {
+	width: 350px;
+}
+
+#orange-search-button {
+	width: 180px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+#contact-us {
+	width: 160px;
+	height: 60px;
+	position: fixed;
+	bottom: 20px;
+	border-radius: 20%;
+	right: 30px;
+	font-size: 20px;
+	background-color: black;
+	color: blanchedalmond;
 }
